@@ -1,4 +1,6 @@
 # Create an app as shown in the image below. When the Button is pressed the text from the EditText should be displayed in the TextView. Hint: Use setText() and getText().
+
+```
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,8 +18,11 @@
             }
         });
     }
+```
 
 # Create an app with two buttons and a ProgressBar. One button should increment the ProgressBar and one should decrement it. HINT: Use setProgress().
+
+```
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,11 +50,13 @@
             }
         });
     }
+```
     
 # Create a login screen with an email and password field, as well as a login button. The Button should create a welcoming Toast if the login information was:
 1. Email: user@email.com
 2. Password: ILOVEAND
 
+```
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +79,7 @@
             }
         });
     }
+```
 
 # Create a new String resource in the values folder with the value "AND IS AWESOME". Create two TextViews in your layout and use this String resource in both of them. Then give the TextViews a background color, that you define in colors.xml.
 
@@ -89,4 +97,5 @@
         b.setText(R.string.string1);
         
 
-    }```
+    }
+```
