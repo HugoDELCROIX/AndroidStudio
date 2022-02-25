@@ -45,3 +45,30 @@
             }
         });
     }
+    
+# Create a login screen with an email and password field, as well as a login button. The Button should create a welcoming Toast if the login information was:
+1. Email: user@email.com
+2. Password: ILOVEAND
+
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Log.v("TAG","test");
+
+        Button login = findViewById(R.id.login);
+        TextView username = findViewById(R.id.username);
+        TextView password = findViewById(R.id.password);
+
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(username.getText().toString().equals("user@email.com") && password.getText().toString().equals("ILOVEAND")){
+                    Context context = getApplicationContext();
+                    Toast loggedIn = Toast.makeText(context, "Logged in",Toast.LENGTH_LONG);
+                    loggedIn.show();
+                }
+            }
+        });
+    }
