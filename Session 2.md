@@ -75,7 +75,8 @@
 
 # Create a new String resource in the values folder with the value "AND IS AWESOME". Create two TextViews in your layout and use this String resource in both of them. Then give the TextViews a background color, that you define in colors.xml.
 
-```@Override
+```
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
