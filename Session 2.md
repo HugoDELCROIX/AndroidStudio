@@ -51,7 +51,7 @@ ___
         });
     }
 ```
-    
+___
 # Create a login screen with an email and password field, as well as a login button. The Button should create a welcoming Toast if the login information was:
 1. Email: user@email.com
 2. Password: ILOVEAND
@@ -80,7 +80,7 @@ ___
         });
     }
 ```
-
+___
 # Create a new String resource in the values folder with the value "AND IS AWESOME". Create two TextViews in your layout and use this String resource in both of them. Then give the TextViews a background color, that you define in colors.xml.
 
 ```
