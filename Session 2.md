@@ -19,7 +19,7 @@
         });
     }
 ```
-
+___
 # Create an app with two buttons and a ProgressBar. One button should increment the ProgressBar and one should decrement it. HINT: Use setProgress().
 
 ```
