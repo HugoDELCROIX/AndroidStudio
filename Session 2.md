@@ -178,4 +178,6 @@ ___
 </resources>
 ```
 
+![calculator](https://kasperknop.github.io/codelabs/interaction/img//68c94ac4f53a2079.png)
+
 
