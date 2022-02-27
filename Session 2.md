@@ -99,3 +99,36 @@ ___
 
     }
 ```
+
+___
+
+# Make an ImageView change between two images using a Switch.
+```
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Log.v("TAG","test");
+
+        ImageView image1 = findViewById(R.id.imageView);
+        Switch simpleSwitch = findViewById(R.id.switch1);
+        image1.setImageResource(R.drawable.ic_launcher_foreground);
+        simpleSwitch.setChecked(false);
+
+        simpleSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (simpleSwitch.isChecked()==true){
+                    image1.setImageResource(R.drawable.ic_launcher_background);
+                } else {
+                    image1.setImageResource(R.drawable.ic_launcher_foreground);
+                }
+            }
+        });
+
+
+
+
+
+    }
+    ```
