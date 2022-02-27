@@ -127,7 +127,7 @@ ___
 ```
 ___
 
-# Create an ==Activity== that uses two different layouts depending on whether it is in landscape or portrait mode.
+# Create an Activity that uses two different layouts depending on whether it is in landscape or portrait mode.
 
 ```java
 @Override
