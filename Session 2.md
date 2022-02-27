@@ -103,7 +103,7 @@ ___
 ___
 
 # Make an ImageView change between two images using a Switch.
-```
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -125,10 +125,5 @@ ___
                 }
             }
         });
-
-
-
-
-
     }
     ```
