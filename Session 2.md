@@ -181,14 +181,15 @@ ___
 ___
 
 # Create a calculator, that can add numbers together. It can be as simple as two EditText fields and a Button, or as complex as the image below - your choice.
-![calculator](https://kasperknop.github.io/codelabs/interaction/img//68c94ac4f53a2079.png)
+
+<p align="center">
+  <img width="460" height="300" src="https://kasperknop.github.io/codelabs/interaction/img//68c94ac4f53a2079.png">
+</p>
 
 ```java
 
 ```
 
-<p align="center">
-  <img width="460" height="300" src="https://www.pexels.com/photo/photo-of-grey-tabby-kitten-lying-down-2558605/">
-</p>
+
 
 
