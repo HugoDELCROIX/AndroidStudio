@@ -1,6 +1,6 @@
 # Create an app as shown in the image below. When the Button is pressed the text from the EditText should be displayed in the TextView. Hint: Use setText() and getText().
 
-```
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@
 ___
 # Create an app with two buttons and a ProgressBar. One button should increment the ProgressBar and one should decrement it. HINT: Use setProgress().
 
-```
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +56,7 @@ ___
 1. Email: user@email.com
 2. Password: ILOVEAND
 
-```
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,7 +83,7 @@ ___
 ___
 # Create a new String resource in the values folder with the value "AND IS AWESOME". Create two TextViews in your layout and use this String resource in both of them. Then give the TextViews a background color, that you define in colors.xml.
 
-```
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,8 +95,6 @@ ___
 
         a.setText(R.string.string1);
         b.setText(R.string.string1);
-        
-
     }
 ```
 
