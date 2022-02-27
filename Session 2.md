@@ -124,4 +124,19 @@ ___
             }
         });
     }
-    ```
+```
+___
+
+# Create an **Activity** *that* uses two different layouts depending on whether it is in landscape or portrait mode.
+
+```java
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
+            setContentView(R.layout.activity_main);
+        } else {
+            setContentView(R.layout.activity_main_land);
+        }
+```
