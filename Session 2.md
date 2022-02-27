@@ -140,5 +140,19 @@ ___
             setContentView(R.layout.activity_main_land);
         }
 ```
+___
+
+# Create a new style for an app which contains TextViews. The style should define the size, color, font and style of the text, as well as making it all CAPS.
+```xml
+<resources>
+    <style name="style_test">
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+</resources>
+```
 
 
