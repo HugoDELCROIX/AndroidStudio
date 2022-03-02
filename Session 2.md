@@ -187,13 +187,28 @@ ___
 </p>
 
 ```java
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Log.v("TAG","test");
 
+        TextView number1 = findViewById(R.id.number1);
+        TextView number2 = findViewById(R.id.number2);
+        TextView result = findViewById(R.id.textView3);
+        Button equal = findViewById(R.id.button);
+
+        equal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Double a = Double.parseDouble(number1.getText().toString());
+                Double b = Double.parseDouble(number2.getText().toString());
+                result.setText(Double.toString(a+b));
+            }
+        });
+    }
+    }
 ```
-## OR
-
-```java
-
-``` 
 
 
 
